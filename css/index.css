@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 /*Global styles */
+
+h1{
+    color:darkgreen;
+    text-align:center;
+    font-weight:bold;
+    font-size:x-large;
+}
 *{
     margin:0;
     padding:0;
@@ -40,7 +47,7 @@ nav ul li{
 
 .nav-right{
     float:right;
-    width:70%%;
+    width:70%;
 }
 
 .logo{
@@ -60,7 +67,7 @@ nav ul li{
 
 .hero-left{
     float:left;
-    width:20%;
+    width:40%;
 }
 
 .touch{
@@ -68,9 +75,84 @@ nav ul li{
     text-align:center;
     font-weight:bold;
     font-size:x-large;
+    float: left;
+    Margin-top:20px;
 }
 
 .hero-right{
     margin:0px 65px;
     margin-top:-100px;
 }
+
+
+.frm{
+    border:1px solid brown;
+
+}
+ .top{
+     color:rgb(255, 0, 0);
+     font-size:x-large;
+     font-weight:bold;
+     margin-bottom:3px;
+     text-align:center;
+ }
+
+ .more{
+     font-weight: bold;
+     font-size:x-large;
+     text-align:center;
+     margin-bottom:5px;
+ }
+
+ .mine{
+     font-size:x-large;
+     color:orangered;
+     font-weight:bold;
+     margin-bottom:10px;
+    
+ }
+
+ .hood{
+     text-align:center;
+     font-weight:bold;
+     color:orangered;
+     font-size:x-large;
+     margin: 0 auto;
+    
+ }
+
+ .email{
+     text-align:center;
+ }
+
+ .button input{
+     font-weight:bold;
+     font-size:x-large;
+     color:powderblue;
+     text-align:center;
+     display: block;
+     margin:0 auto;
+     width:15%;
+ }
+ 
+
+ .h2{
+     text-align:center;
+ }
+
+ .nono{
+     color:rgb(26, 122, 74);
+     font-weight:bold;
+     text-align:center;
+ }
+ 
+
+ .hood input,
+ .email input{
+     width: 30%;
+     padding:20px 10px;
+     margin-bottom: 10px;
+     border:2px solid green;
+     font-weight:bold;
+ }
+ 
