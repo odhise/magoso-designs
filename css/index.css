@@ -133,6 +133,7 @@ nav ul li{
      display: block;
      margin:0 auto;
      width:15%;
+     cursor:pointer;
  }
  
 
@@ -154,5 +155,10 @@ nav ul li{
      margin-bottom: 10px;
      border:2px solid green;
      font-weight:bold;
+     cursor:pointer;
+ }
+
+ .point{
+     cursor:pointer;
  }
  
